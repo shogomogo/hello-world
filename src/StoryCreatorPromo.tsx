@@ -608,7 +608,7 @@ export const StoryCreatorPromo: React.FC = () => {
       {/* プロット生成: 300-390 (10-13秒) */}
       <Sequence from={300} durationInFrames={90}>
         <ScreenshotSlide
-          imageSrc="images/01_plot.png"
+          imageSrc="download/plot/01_plot.png"
           title="プロット生成"
           description="アイデアを具体化して、ストーリーを細かくしていきます"
         />
@@ -617,7 +617,7 @@ export const StoryCreatorPromo: React.FC = () => {
       {/* キャラデザ: 390-480 (13-16秒) */}
       <Sequence from={390} durationInFrames={90}>
         <ScreenshotSlide
-          imageSrc="images/02_character.png"
+          imageSrc="download/plot/02_character.png"
           title="スタイル設定"
           description="キャラクターデザインと世界観を設定できます"
         />
@@ -626,7 +626,7 @@ export const StoryCreatorPromo: React.FC = () => {
       {/* 背景生成: 480-570 (16-19秒) */}
       <Sequence from={480} durationInFrames={90}>
         <ScreenshotSlide
-          imageSrc="images/03_background.png"
+          imageSrc="download/plot/03_background.png"
           title="背景生成"
           description="背景・シーンを生成・編集できます"
         />
@@ -635,7 +635,7 @@ export const StoryCreatorPromo: React.FC = () => {
       {/* キーフレーム: 570-660 (19-22秒) */}
       <Sequence from={570} durationInFrames={90}>
         <ScreenshotSlide
-          imageSrc="images/04_keyframe.png"
+          imageSrc="download/plot/04_keyframe.png"
           title="キーフレーム"
           description="重要な場面のカットを生成します"
         />
@@ -644,7 +644,7 @@ export const StoryCreatorPromo: React.FC = () => {
       {/* 動画編集: 660-750 (22-25秒) */}
       <Sequence from={660} durationInFrames={90}>
         <ScreenshotSlide
-          imageSrc="images/05_video.png"
+          imageSrc="download/plot/05_video.png"
           title="動画編集"
           description="クリップを繋いで最終動画を作成"
         />
